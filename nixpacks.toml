@@ -13,6 +13,7 @@ cmds = [
     "mkdir -p /app/templates /app/static",
     "cp -r templates/* /app/templates/ 2>/dev/null || true",
     "cp -r static/* /app/static/ 2>/dev/null || true",
+    "cp app.py requirements.txt /app/",
 ]
 
 [start]
